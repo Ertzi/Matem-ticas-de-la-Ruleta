@@ -3,10 +3,18 @@ import random
 class Ruleta():
     """
     Clase para simular la ruleta, con diferentes modos de juego:
-    - 'color': Apuestas todo a un color
+    - 'color': apuestas todo a un color
     - 'par_impar': apuestas todo a que salga par o impar
+    - 'pasa_falta': pasa = 1-18, falta = 19-36
     - 'docena': apuestas todo a que salga una docena de las tres que hay (1-12, 13-24, 25-36)
-    - Personalizado: apuestas una(s) cantidad(es) en alguna(s) casilla(s)
+    - 'dos_docenas': lo mismo pero a dos de las tres docenas
+    - 'columnas': se apuesta a una de las tres columnas que hay
+    - 'dos_columnas': Se apuesta a dos de las tres columnas que hay
+    - 'seisena': 
+    - 'cuadro':
+    - 'transversal': 
+    - 'caballo': 
+    - 'pleno': 
     """
     def __init__(self, modo_de_juego):
         self.modo_de_juego = modo_de_juego
